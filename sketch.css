@@ -1,0 +1,143 @@
+h3{
+    color: aliceblue
+}
+#imgAbout{
+    justify-content: center;
+}
+#AboutText{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border: 10px;
+    border-color:whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#AboutText h2{
+    background-color: antiquewhite;
+}
+#imgAbout h1{
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    height: 300px;
+    background-color: burlywood;
+}
+
+
+body {
+    background-image: url("giphy.gif");
+}
+
+#backstory{
+    text-align: center;
+    background-color: brown;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 10px;
+    padding-bottom: 10px
+
+}
+#one{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#two{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#three{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.Featured-Works{
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: brown;
+    padding-top: 10px;
+}
+img{
+    width: 300px;
+    height: 400px;
+    padding:10px;
+    background-color: bisque;
+    align-content: center
+}
+#Where-from h2{
+    background-color: antiquewhite
+}
+#Where-from{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#Family h2{
+    background-color: antiquewhite
+}
+#Family{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#Future-Goal h2{
+    background-color: antiquewhite
+}
+#Future-Goal{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.Featured-Works h2{
+    background-color: antiquewhite;
+}
+@media only screen and (max-width:414px){
+    body{
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #AboutText{
+        text-align: center;
+        padding: 20px;
+        background-color: black;
+        border: 10px;
+        border-color:whitesmoke;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #backstory{
+        text-align: left;
+        background-color: brown;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding-bottom: 10px
+    
+    }
+    .Featured-Works{
+        text-align: center;
+        padding: 0%;
+        margin-top: 10px;
+        background-color: brown;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 10px;
+    }
+}
