@@ -61,6 +61,12 @@ img{
     margin-left: 1%;
     margin-right: 1%;
 }
+#one h2{
+    text-decoration: underline;
+}
+#one h2:hover{
+    color: blue;
+}
 #two{
     text-align: center;
     padding: 2%;
@@ -145,7 +151,7 @@ img{
     border-style: hidden;
 }
 
-@media only screen and (max-width:414px){
+@media only screen and (max-width:590px){
     body{
         padding: 0px;
         margin-left: 0px;
@@ -187,28 +193,49 @@ img{
         padding-top: 10px;
         padding-bottom: 1%;
     }
-    img{
-        width: 80%;
-    }
     #toolbar{
-        padding: 10px;
-        margin-top: 0px;
-        width: 100%;
-        background: linear-gradient( to right, rgb(233, 134, 134),rgb(106, 106, 211), rgb(240, 131, 240));
-        list-style-type: none;
-        text-align: center; 
-        position: fixed;
-        flex-direction: row;
+        padding: none;
+        position:fixed;
+        top:0;
+        right:0;
+        bottom:0;
+        position:absolute;
+        overflow-y:hidden;
+        overflow-x: scroll;
+        background: linear-gradient( to right,rgb(0,78,146), aliceblue);
     }
     
     #toolbar li{
-        display: inline;
-        margin-right: 1.5em;
-        font-size: 80%;
-        color: black;
+        display: none;
     }
     
     #toolbar a{
         align-items: center;
+        padding: none;
     }
+    #toolbar button{
+        display: flex;
+        justify-content: flex-start;
+    }
+    ::-webkit-scrollbar {
+        height: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      #Future-GoalMenu{
+          width: absolute;
+      }
     }
