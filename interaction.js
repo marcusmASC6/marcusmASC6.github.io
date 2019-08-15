@@ -31,5 +31,9 @@ function resumeURL(){
 
 document.getElementById('one').addEventListener('click', PokeMon)
 function PokeMon(){
-    window.location.href = 'https://kevinfasc6.github.io/PokemonGoProject/'
+    window.location.href = 'https://marcusmasc6.github.io/Pokemon-Go/'
+}
+document.getElementById('two').addEventListener('click', PokeMon)
+function PokeMon(){
+    window.location.href = 'https://kevinfasc6.github.io/StudySesh/?#'
 }
