@@ -28,3 +28,8 @@ document.getElementById('Resume').addEventListener('click', resumeURL)
 function resumeURL(){
     window.location.href = "resume.pdf";
 }
+
+document.getElementById('one').addEventListener('click', PokeMon)
+function PokeMon(){
+    window.location.href = 'https://kevinfasc6.github.io/PokemonGoProject/'
+}
